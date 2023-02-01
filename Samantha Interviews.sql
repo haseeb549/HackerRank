@@ -1,10 +1,10 @@
-Question:
+-- Question:
 
-Samantha interviews many candidates from different colleges using coding challenges and contests. Write a query to print the contest_id, hacker_id, name, 
-and the sums of total_submissions, total_accepted_submissions, total_views, and total_unique_views for each contest sorted by contest_id. Exclude the
-contest from the result if all four sums are .
+-- Samantha interviews many candidates from different colleges using coding challenges and contests. Write a query to print the contest_id, hacker_id, name, 
+-- and the sums of total_submissions, total_accepted_submissions, total_views, and total_unique_views for each contest sorted by contest_id. Exclude the
+-- contest from the result if all four sums are .
 
-Solution:
+-- Solution:
 
 SELECT con.contest_id, con.hacker_id, con.name, SUM(sg.total_submissions), SUM(sg.total_accepted_submissions),
 SUM(vg.total_views), SUM(vg.total_unique_views)
