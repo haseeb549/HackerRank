@@ -1,7 +1,7 @@
-Question:
-P(R) represents a pattern drawn by Julia in R rows.
+--Question:
+--P(R) represents a pattern drawn by Julia in R rows.
 
-Solution:
+--Solution:
 
 DECLARE @i INT = 1;
 WHILE @i < 21
